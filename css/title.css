@@ -1,0 +1,485 @@
+body{
+    overflow-x: hidden;
+}
+
+.maintitle{
+    position: relative;
+}
+.imagetitle img{
+    width: 100%;
+    padding-top: 10px;
+}
+.titletext{
+    position: absolute;
+    top: 30%;
+    font-family: 'Inter';
+    left: 8%;
+}
+.titletext h4{
+    font-weight: 400;
+}
+.titletext span{
+    font-weight: 800;
+}
+.titletext h2{
+    font-size: 40px;
+}
+.titlebutton button{
+    background-color: rgb(12, 237, 155);
+    color: white;
+    height: 33px;
+    width: 200px;
+    
+    border: none;
+    border-radius: 5px;
+}
+.mainform{
+    border: 1px solid gray;  
+    border-radius: 20px; 
+    width:70%;
+    /* margin-left: 30%; */
+    box-shadow: gray 1px;
+    position: absolute;
+    top: 83%;
+    left: 15%;
+    background-color: white;
+}
+.mainform h4{
+    padding: 20px;
+    padding-left: 48px;
+    font-family: 'Inter';
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.field1{
+    flex: 1;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px; 
+    
+}
+.field1  input{
+    height: 30px;
+    width: 230px;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: 0.1px;
+    
+}
+.field2{
+    flex:1;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.field2  select{
+    height: 30px;
+    width: 230px;
+    margin: 7px;
+    border-radius: 5px;
+    border-width: 0.1px;
+}
+.field2 button{
+    background-color: rgb(12, 237, 155);
+    color: white;
+    height: 33px;
+    width: 230px;
+    margin-left: 7px;
+    border: none;
+    border-radius: 5px;
+}
+.ourdepartments{
+    position: absolute;
+    top: 860px;
+    left: 5%;
+}
+.departmentext{
+    font-family: 'Inter';
+    margin-left: 10px;
+}
+.departments{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.surgery{
+    display: flex;
+    flex-direction: column;  
+    height: 400px; 
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.surgeryimg img{
+    width: 330px;
+    height: 250px;
+}
+.surgerytext{
+    font-family: 'Inter';
+    font-size: small;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.surgerytext a{
+    color:  rgb(12, 237, 155) ;
+}
+
+
+.oncology{
+    display: flex;
+    flex-direction: column;  
+    height: 400px; 
+    width: 350px;
+    margin-right: 30px;
+}
+.oncologyimg img{
+    width: 330px;
+    height: 250px;
+}
+.oncologytext{
+    font-family: 'Inter';
+    margin-top: 10px;
+    font-size: small;
+    line-height: 25px;
+}
+.oncologytext a{
+    color:  rgb(12, 237, 155) ;
+}
+
+.ent{
+    display: flex;
+    flex-direction: column;  
+    height: 400px; 
+    width: 350px;
+    margin-left: 10px;
+}
+.entimg img{
+    width: 330px;
+    height: 250px;
+}
+.enttext{
+    font-family: 'Inter';
+    margin-top: 10px;
+    font-size: small;
+    line-height: 25px;
+}
+.enttext a{
+    color:  rgb(12, 237, 155) ;
+}
+
+.whygg{
+    position: absolute;
+    top: 245%;
+    width: 90%;
+    margin-left: 50px;
+    background-color: #eaf2ff;
+    /* background-color: #d5f1f7; */
+    display: flex;
+}
+.whyggimg img{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 0;
+}
+.whyggtext{
+    position: absolute;
+    top: 30%;
+    left: 57%;
+    font-family: 'Inter';
+}
+.whyggtext h3{
+    font-weight: 800;
+}
+.whyggtext ul{
+    margin-top: 20px;
+    list-style-type: none;
+    margin-left: -30px;
+}
+.whyggtext ul li{
+    margin-top: 10px;
+}
+.whyggtext ul li i{
+    margin-right: 10px;
+    color:  rgb(12, 237, 155) ;
+}
+
+.specialists{
+    position: absolute;
+    top: 330%;
+    width: 90%;
+    left: 5%;
+}
+.specialiststitle h3{
+    font-family: 'Inter';
+    text-align: center;
+}
+.specialiststitle p{
+    font-family: 'Inter';
+    color: rgb(117, 117, 117);
+    text-align: center;
+}
+.lisha{
+    margin: 15px;
+}
+.lishaimg img{
+    width: 250px;
+    height: 250px;
+}
+.lishatext{
+    font-family: 'Inter';
+    text-align: center;
+}
+.lishatext p{
+    color: rgb(117, 117, 117);;
+}
+.specialistsdisplay{
+    display: flex;
+}
+.viewallbutton{
+    text-align: center;
+}
+.viewallbutton button{
+    background-color: #17C1A3;
+    width: 200px;
+    height: 50px;
+    font-family: 'Inter';
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.facilities{
+    position: absolute;
+    top:435%;
+    left: 5%;
+    width: 90%;
+}
+.facilitiestext{
+    display: flex;
+    align-items: center;
+}
+.facilitiestext h3{
+    font-family: 'Inter';
+    text-align: center;
+    margin-left: 43%;
+}
+.fa-arrow-left{
+    margin-left: 32% ;
+    color: gray;
+}
+.fa-arrow-right{
+    margin-left: 40px ;
+}
+.images{
+    display: flex;
+}
+.img1{
+    margin: 15px;
+    margin-top: 5px;
+}
+.images .img1 img{
+    width: 350px;
+    height: 220px;
+}
+
+.youmaybeint{
+    position: absolute;
+    top: 500%;
+    left: 5%;
+    width: 90%;
+}
+
+.youmaybeinttext{
+    display: flex;
+    align-items: center;
+}
+.youmaybeint h3{
+    font-family: 'Inter';
+    text-align: center;
+    margin-left: 43%;
+}
+.youmaybeinttext .fa-arrow-left{
+    margin-left: 30% ;
+    color: gray;
+}
+.youmaybeinttext .fa-arrow-right{
+    margin-left: 40px ;
+}
+.youmaybeintcards{
+    display: flex;
+    margin: 20px;
+   
+}
+
+.cardimg img{
+    width: 350px;
+    height: 220px;
+    /* width: 300px;
+    height: 200px; */
+    /* margin-top: 20px;
+    margin-right: 10px; */
+}
+.ymicardtext{
+    font-family: 'Inter';
+}
+.ymicardtext a{
+    color: #17C1A3;
+}
+.youmaybeintcards .card{
+    width: 350px;
+    margin-right: 35px;
+    
+}
+
+.subscribe{
+    position: absolute;
+    top: 120%;
+    width: 90%;
+}
+.subbox{
+    position: relative;
+}
+.subscribetext{
+    position: absolute;
+    top: 15%;
+}
+.subscribetext h1{
+    font-family: 'Inter';
+    margin-left: 40px;
+}
+.subbox img{
+    height: 250px;
+    width: 120%;
+}
+.inputfield{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    
+}
+.inputfield input{
+    height: 30px;
+    width: 200px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.inputfield button{
+    background-color: #17C1A3;
+    width: 90px;
+    height: 36px;
+    font-family: 'Inter';
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.footer1{
+    position: absolute;
+    top: 650%;
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px rgb(87, 87, 87);
+}
+.footerleft{
+    width: 375px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.footerleft img{
+    height: 60px;
+    width: 320px;
+}
+.footerleft p{
+    font-family: 'Inter';
+    font-size: small;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+.footerright{
+    margin-left: 130px;
+    font-family: 'Inter';
+    display: flex;
+    
+}
+.aboutus h4{
+    font-weight: 700;
+}
+.aboutuswrap{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: -10px;
+}
+.aboutuswrap h5{
+    font-weight: 400;
+    font-size: small;
+}
+.aboutuswrap a{
+    text-decoration: none;
+    color: black;
+}
+.legal{
+    margin-left: 50px;
+}
+.legal h4{
+    font-weight: 700;  
+}
+.legalwrap{
+    
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: -10px; 
+}
+.legalwrap h5{
+    font-weight: 400;
+    font-size: small;
+}
+.legalwrap a{
+    text-decoration: none;
+    color: black;   
+}
+
+.footer2{
+    position: absolute;
+    top: 690%;
+    left: 7%;
+    display: flex;
+    width: 100%;   
+    font-family: 'Inter';
+}
+.footer2 i{
+    margin-right:10px ;
+}
+.footer2 p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: small;
+    line-height: 25px;
+}
+.fa-phone-alt{
+    margin-left: 50px;
+}
+.fa-envelope{
+    margin-left: 50px;
+}
+.footer2right{
+    margin-top: -20px;
+    margin-left:30px ;
+}
+.footer2right h3{
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.footer2right i{
+    margin-right: 30px;
+    margin-left: 30px;
+}
